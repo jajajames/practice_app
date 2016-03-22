@@ -8,7 +8,36 @@
 </head>
 <body>
 
-<%= yield %>
+<h1>Practice RoR Web App</h1>
 
+<h3>
+  Interact with this webapp via the browser's url
+</h3>
+<br>
+<ul>
+  <li>
+    <p>
+      For a personalized greeting, type <%= link_to("http://localhost:3000/your_name", "http://localhost:3000/your_name") %>
+    </p>
+  </li>
+  <li>
+    <p>
+      Type <%= link_to("http://localhost:3000/lorem/standard", "http://localhost:3000/lorem/standard")%> to see booring old ipsum.
+    </p>
+  </li>
+  <li>
+    <p>
+      Type <%= link_to("http://localhost:3000/lorem/hipster", "http://localhost:3000/lorem/hipster")%> to see ironic ipsum.
+    </p>
+  </li>
+  <li>
+    <p>
+      Type <%= link_to("http://localhost:3000/lorem/cupcake", "http://localhost:3000/lorem/cupcake")%> to see fun cupcake ipsum.
+    </p>
+  </li>
+</ul>
+<br>
+<hr>
+<%= yield %>
 </body>
 </html>

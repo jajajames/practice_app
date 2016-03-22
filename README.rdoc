@@ -1,3 +1,5 @@
 == README
 
 Practice makes perfect, but this project claims to be only the former. This rails app was completed for The Iron Yard Indianapolis Back End Engineering with Ruby.
+
+dev branch to practice routs and controllers
